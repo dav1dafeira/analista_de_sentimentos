@@ -1,0 +1,1 @@
+# analista_de_sentimentos
