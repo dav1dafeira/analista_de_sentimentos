@@ -4,7 +4,6 @@ from dicionarios import palavras_positivas, palavras_negativas, palavras_neutras
 tokenizer = ToktokTokenizer()
 
 nome = input("Olá! Qual é o seu nome? ")
-idade = input("Quantos anos você tem, {}? ".format(nome))
 print(f"\nSeja bem-vindo(a), {nome}! Vamos analisar sentimentos nas suas frases. 😊\n")
 
 # Função para verificar multiplicador e peso
@@ -85,3 +84,9 @@ else:
     print(f"Quantidade de palavras neutras: {porcentagem_sentimentos['neutro']}")
     print(f"Score Total: {score_total:.2f}")
     print("\nObrigado por compartilhar. Fique bem! 🌟")
+
+
+# o filme é muito bom, mas o ator é ruim
+# to muito feliz mas meu dia foi péssimo
+# não estou bem
+# tô de boa
